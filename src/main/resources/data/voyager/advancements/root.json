@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Yer, a Wizard Voyager!",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "You have a little bit of magic in you.",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "voyager:infused_gem_shard",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/entity/end_portal.png"
+    },
+    "criteria": {
+        "no": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

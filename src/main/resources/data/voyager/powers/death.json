@@ -1,0 +1,23 @@
+{
+    "type": "origins:action_over_time",
+    "interval": 1,
+    "rising_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:spawn_entity",
+                "entity_type": "minecraft:item",
+                "tag": "{Item:{id:\"minecraft:gunpowder\",Count:1b}}"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "summon firework_rocket ~ ~ ~ {Silent:1b,LifeTime:20,ShotAtAngle:1b,Motion:[0.0,0.0,0.0],FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:2,Colors:[I;16777215],FadeColors:[I;16777215]},{Type:2,Colors:[I;16777215],FadeColors:[I;16777215]},{Type:2,Colors:[I;16777215],FadeColors:[I;16777215]},{Type:2,Colors:[I;16777215],FadeColors:[I;16777215]},{Type:2,Colors:[I;16777215],FadeColors:[I;16777215]},{Type:2,Colors:[I;16777215],FadeColors:[I;16777215]},{Type:2,Colors:[I;16777215],FadeColors:[I;16777215]},{Type:2,Colors:[I;16777215],FadeColors:[I;16777215]},{Type:2,Colors:[I;16777215],FadeColors:[I;16777215]},{Type:2,Colors:[I;16777215],FadeColors:[I;16777215]}]}}}}"
+            }
+            ]
+    },
+    "condition": {
+        "type": "origins:health",
+        "comparison": "<=",
+        "compare_to": 0
+    }
+}

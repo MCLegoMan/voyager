@@ -1,0 +1,24 @@
+{
+  "powers": [
+    "voyager:main",
+    "voyager:health",
+    "voyager:crafting",
+    "voyager:dash",
+    "voyager:magical_landing",
+    "voyager:natural_protection",
+    "voyager:inability",
+    "voyager:sleep",
+    "voyager:death",
+    "voyager:appetite",
+    "voyager:upgrade",
+    "voyager:upgrade_particles",
+    "voyager:power_particles"
+  ],
+  "icon": "voyager:infused_gem_shard",
+  "order": 1,
+  "impact": 2,
+  "upgrades": [{
+    "condition": "voyager:upgrade",
+    "origin": "voyager:infused_voyager"
+  }]
+}
