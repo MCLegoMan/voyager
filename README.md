@@ -14,17 +14,19 @@ Dependencies:
 - Extra Origins
 
 Item(s):
-Infused Gem Shard
-Infused Gem
+- Infused Gem Shard
+- Infused Gem
+
 Enchantment(s):
-Touch of Inability - Gives your enemy Inability for 4 seconds.
-(currently only creative mode to obtain - will be good for multiplayer against a voyager.)
+- Touch of Inability - Gives your enemy Inability for 4 seconds. (currently only creative mode to obtain - will be good for multiplayer against a voyager.)
+
 Status Effect(s):
-Inability - When you have this effect you are unable to use your abilities.
-Upgrading - When you have this effect, you get your upgrading particles.
-Powered - When you have this effect, you get your ability particles.
+- Inability - When you have this effect you are unable to use your abilities.
+- Upgrading - When you have this effect, you get your upgrading particles.
+- Powered - When you have this effect, you get your ability particles.
+
 Recipe(s):
-You can craft a Infused Gem by putting 9 Infused Gem Shards in a crafting table.
+- You can craft a Infused Gem by putting 9 Infused Gem Shards in a crafting table.
 
 Origin Abilitys:
 Voyager:
@@ -55,8 +57,8 @@ Infused Voyager:
 - Appetite: Your species doesn't eat as much compared to humans, however you cannot eat meat.
 
 Credit(s):
-Daniel-Tayden Larsen (MCLegoMan) [Developer, Texture Artist | mclegoman.com]
-LittleRobotSoundFactory [Sound Artist, CC Attribution License | freesound.org]
+- Daniel-Tayden Larsen (MCLegoMan) [Developer, Texture Artist | mclegoman.com]
+- LittleRobotSoundFactory [Sound Artist, CC Attribution License | freesound.org]
 
 
 License: Open Source MCLegoMan Software License
