@@ -65,4 +65,5 @@ Software under this license is granted, free of charge, to anyone obtaining a co
 The above copyright notice, and this permission notice shall be included in all copies or substantial portions of the software.
 
 SOFTWARE (and the associated files) UNDER THIS LICENSE IS PROVIDED, “AS IS”, WITHOUT WARRANTY OF ANY KIND. IN NO EVENT SHALL THE AUTHORS/COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY.
+
 The license can also be found here: https://mclegoman.com/open-source-mclegoman-software-license/
