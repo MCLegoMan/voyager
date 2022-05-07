@@ -60,6 +60,7 @@ LittleRobotSoundFactory [Sound Artist, CC Attribution License | freesound.org]
 
 
 License: Open Source MCLegoMan Software License
+
 Software under this license is granted, free of charge, to anyone obtaining a copy of this software, and associated files provided, can deal with the software without restriction, this includes the ability to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, and associated files, and to allow the users that recieve the software to also do so, subject to the following conditions:
 
 The above copyright notice, and this permission notice shall be included in all copies or substantial portions of the software.
