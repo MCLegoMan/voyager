@@ -6,8 +6,7 @@
 	},
 	"attribute_modifiers": {
 		"type": "origins:attribute",
-		"modifiers": [
-			{
+		"modifiers": [{
 				"name": "Origin modifier",
 				"attribute": "minecraft:generic.max_health",
 				"operation": "addition",
@@ -16,47 +15,42 @@
 			{
 				"name": "Origin modifier",
 				"attribute": "minecraft:generic.attack_speed",
-				"operation": "multiply_base",
+				"operation": "multiply_total",
 				"value": 0.5
 			},
 			{
 				"name": "Origin modifier",
 				"attribute": "minecraft:generic.movement_speed",
-				"operation": "multiply_base",
+				"operation": "multiply_total",
 				"value": 0.5
 			},
 			{
 				"name": "Origin modifier",
 				"attribute": "reach-entity-attributes:attack_range",
-				"operation": "multiply_base",
+				"operation": "multiply_total",
 				"value": -0.5
 			},
 			{
 				"name": "Origin modifier",
 				"attribute": "reach-entity-attributes:reach",
-				"operation": "multiply_base",
+				"operation": "multiply_total",
 				"value": -0.5
 			}
 		]
 	},
-	"other_modifiers": {
-		"type": "origins:and",
-		"actions": [
-			{
-				"type": "origins:modify_jump",
-				"modifier": {
-					"name": "Origin modifier",
-					"operation": "multiply_base",
-					"value": 0.5
-				}
-			},
-			{
-				"type": "origins:modify_swim_speed",
-				"modifier": {
-					"operation": "multiply_base",
-					"value": 0.5
-				}
+	"jump_modifiers": {
+		"type": "origins:modify_jump",
+		"modifier": {
+			"name": "Origin modifier",
+			"operation": "multiply_total",
+			"value": 0.5
+		},
+		"swim_modifiers": {
+			"type": "origins:modify_swim_speed",
+			"modifier": {
+				"operation": "multiply_total",
+				"value": 0.5
 			}
-		]
+		}
 	}
 }
