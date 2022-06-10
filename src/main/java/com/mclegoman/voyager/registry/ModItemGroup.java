@@ -1,4 +1,4 @@
-package com.mclegoman.voyager.item;
+package com.mclegoman.voyager.registry;
 
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;

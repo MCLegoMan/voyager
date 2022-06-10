@@ -1,6 +1,6 @@
 package com.mclegoman.voyager.util;
 
-//import com.mclegoman.voyager.item.ModItems;
+//import com.mclegoman.voyager.registry.ModItems;
 //import net.fabricmc.fabric.api.loot.v1.FabricLootPoolBuilder;
 //import net.fabricmc.fabric.api.loot.v1.event.LootTableLoadingCallback;
 //import net.minecraft.item.Items;

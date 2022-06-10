@@ -2,7 +2,7 @@ package com.mclegoman.voyager;
 
 import com.mclegoman.voyager.effects.ModEffects;
 import com.mclegoman.voyager.enchantments.ModEnchantments;
-import com.mclegoman.voyager.item.ModItems;
+import com.mclegoman.voyager.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

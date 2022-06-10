@@ -1,5 +1,6 @@
-package com.mclegoman.voyager.item;
+package com.mclegoman.voyager.registry;
 
+import com.mclegoman.legolib.items.EnchantedItem;
 import com.mclegoman.voyager.Main;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.*;
@@ -10,10 +11,10 @@ import static com.mclegoman.voyager.Main.MOD_ID;
 public class ModItems {
 
     public static final Item INFUSED_GEM_SHARD = registerItem("infused_gem_shard",
-            new GemItem(new FabricItemSettings().group(ModItemGroup.VOYAGER_ITEMS)));
+            new EnchantedItem(new FabricItemSettings().group(ModItemGroup.VOYAGER_ITEMS)));
 
     public static final Item INFUSED_GEM = registerItem("infused_gem",
-            new GemItem(new FabricItemSettings().group(ModItemGroup.VOYAGER_ITEMS)));
+            new EnchantedItem(new FabricItemSettings().group(ModItemGroup.VOYAGER_ITEMS)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(MOD_ID, name), item);
