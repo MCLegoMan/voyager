@@ -10,7 +10,7 @@
       {
         "type": "origins:apply_effect",
         "effect": {
-          "effect": "voyager:powered",
+          "effect": "legolib:powered",
           "duration": 20,
           "amplifier": 0,
           "show_particles": false,
@@ -30,7 +30,7 @@
       {
         "type": "origins:apply_effect",
         "effect": {
-          "effect": "voyager:inability",
+          "effect": "legolib:inability",
           "duration": 600,
           "amplifier": 0,
           "show_particles": true,
@@ -47,7 +47,7 @@
   },
   "condition": {
     "type": "origins:status_effect",
-    "effect": "voyager:inability",
+    "effect": "legolib:inability",
     "min_amplifier": 0,
     "inverted": true
   },

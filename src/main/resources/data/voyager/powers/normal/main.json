@@ -45,7 +45,7 @@
         "actions": [
           {
             "type": "origins:execute_command",
-            "command": "effect give @s voyager:upgrading 3 0"
+            "command": "effect give @s legolib:upgrading 3 0"
           },
           {
             "type": "origins:execute_command",

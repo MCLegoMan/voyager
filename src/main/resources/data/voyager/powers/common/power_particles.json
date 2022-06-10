@@ -19,7 +19,7 @@
   },
   "condition": {
     "type": "origins:status_effect",
-    "effect": "voyager:powered",
+    "effect": "legolib:powered",
     "min_amplifier": 0,
     "inverted": false
   },

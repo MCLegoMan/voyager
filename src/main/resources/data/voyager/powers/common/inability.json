@@ -3,7 +3,7 @@
 	"entity_action": {
 		"type": "origins:apply_effect",
 		"effect": {
-			"effect": "voyager:inability",
+			"effect": "legolib:inability",
 			"amplifier": 0,
 			"duration": 100
 		}

@@ -31,7 +31,7 @@
   },
   "condition": {
     "type": "origins:status_effect",
-    "effect": "voyager:upgrading",
+    "effect": "legolib:upgrading",
     "min_amplifier": 0,
     "inverted": false
   },
