@@ -40,5 +40,5 @@
     "min_amplifier": 0,
     "inverted": true
   },
-  "key": "key.saveToolbarActivator"
+  "key": "legolib.keybind.origins.two_active"
 }

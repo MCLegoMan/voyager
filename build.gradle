@@ -17,8 +17,12 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	// Deprecated Modules.
-	modImplementation "net.fabricmc.fabric-api:fabric-api-deprecated:${project.fabric_version}"
+	// LegoLib. This contains common code that used to be in the mod itself.
+	include modImplementation("com.github.MCLegoMan:legolib:${project.legolib_version}")
+	// Required Mods. These mods are required by Voyager v2.
+	//modImplementation "com.github.apace100:origins-fabric:${project.origins_version}"
+	modImplementation "com.github.apace100:apoli:2.5.0"
+	modImplementation ("com.github.Virtuoel:Pehkui:${project.pehkui_version}", {exclude group: "net.fabricmc.fabric-api"})
 }
 
 processResources {
