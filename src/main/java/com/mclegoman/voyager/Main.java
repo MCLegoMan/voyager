@@ -1,6 +1,5 @@
 package com.mclegoman.voyager;
 
-import com.mclegoman.voyager.effects.ModEffects;
 import com.mclegoman.voyager.enchantments.ModEnchantments;
 import com.mclegoman.voyager.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -16,6 +15,5 @@ public class Main implements ModInitializer {
 		ModItems.registerModItems();
 		//ModLootTableModifiers.modifyLootTables();
 		ModEnchantments.registerModEnchantments();
-		ModEffects.registerEffects();
 	}
 }
