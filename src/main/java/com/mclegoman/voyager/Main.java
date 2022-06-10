@@ -1,6 +1,7 @@
 package com.mclegoman.voyager;
 
 import com.mclegoman.voyager.enchantments.ModEnchantments;
+import com.mclegoman.voyager.registry.ModBlocks;
 import com.mclegoman.voyager.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -13,6 +14,7 @@ public class Main implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 		//ModLootTableModifiers.modifyLootTables();
 		ModEnchantments.registerModEnchantments();
 	}

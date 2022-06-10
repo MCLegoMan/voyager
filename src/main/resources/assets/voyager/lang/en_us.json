@@ -3,6 +3,9 @@
 
   "item.voyager.infused_gem_shard": "Infused Gem Shard",
   "item.voyager.infused_gem": "Infused Gem",
+  "item.voyager.infused_gem_block": "Infused Gem Block",
+
+  "block.voyager.infused_gem_block": "Infused Gem Block",
 
   "enchantment.voyager.touch_of_inability": "Touch of Inability",
   "enchantment.voyager.touch_of_inability.desc": "Your enemies get Inability for 4 seconds.",

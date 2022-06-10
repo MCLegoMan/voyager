@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "voyager:block/infused_gem_block"
+  }
+}

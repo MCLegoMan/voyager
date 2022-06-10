@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "voyager:block/infused_gem_block" }
+  }
+}
