@@ -1,0 +1,17 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:crafting_table"
+  },
+  "hud_render": {
+    "should_render": false
+  },
+  "cooldown": 0,
+  "condition": {
+    "type": "origins:status_effect",
+    "effect": "voyager:inability",
+    "min_amplifier": 0,
+    "inverted": true
+  },
+  "key": "key.origins.primary_active"
+}

@@ -1,0 +1,23 @@
+{
+  "powers": [
+    "voyager:advanced/main_upgraded",
+    "voyager:advanced/advanced_health",
+    "voyager:common/crafting",
+    "voyager:advanced/blast_of_magic",
+    "voyager:advanced/advanced_dash",
+    "voyager:advanced/leap",
+    "voyager:advanced/regenerative",
+    "voyager:common/magical_landing",
+    "voyager:common/natural_protection",
+    "voyager:common/inability",
+    "voyager:advanced/sleep_upgraded",
+    "voyager:advanced/death_upgraded",
+    "voyager:common/appetite",
+    "voyager:common/upgrade_particles",
+    "voyager:common/power_particles"
+  ],
+  "icon": "voyager:infused_gem",
+  "order": 2,
+  "impact": 3,
+  "unchoosable": true
+}
