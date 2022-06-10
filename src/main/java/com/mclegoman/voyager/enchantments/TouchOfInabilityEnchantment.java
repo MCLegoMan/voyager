@@ -1,6 +1,6 @@
 package com.mclegoman.voyager.enchantments;
 
-import com.mclegoman.voyager.effects.ModEffects;
+import com.mclegoman.legolib.registry.ModEffects;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentTarget;
 import net.minecraft.enchantment.Enchantments;
@@ -8,8 +8,6 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
-import net.minecraft.entity.effect.StatusEffects;
-import net.minecraft.entity.player.PlayerEntity;
 
 public class TouchOfInabilityEnchantment extends Enchantment {
     public TouchOfInabilityEnchantment(Rarity weight, EnchantmentTarget type, EquipmentSlot... slotTypes) {
