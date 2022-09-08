@@ -17,7 +17,7 @@ import static com.mclegoman.voyager.Main.MOD_ID;
 
 public class ModBlocks implements Waterloggable {
     public static final Block INFUSED_GEM_BLOCK = registerBlock("infused_gem_block",
-            new Block(FabricBlockSettings.of(Material.DECORATION).strength(20.0f).sounds(BlockSoundGroup.AMETHYST_BLOCK).luminance(7)), ModItemGroup.VOYAGER_BLOCKS);
+            new Block(FabricBlockSettings.of(Material.DECORATION).strength(20.0f).sounds(BlockSoundGroup.STONE).luminance(7)), ModItemGroup.VOYAGER_BLOCKS);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {

@@ -11,10 +11,10 @@ import static com.mclegoman.voyager.Main.MOD_ID;
 public class ModItems {
 
     public static final Item INFUSED_GEM_SHARD = registerItem("infused_gem_shard",
-            new EnchantedItem(new FabricItemSettings().group(ModItemGroup.VOYAGER_ITEMS).maxCount(16)));
+            new Item(new FabricItemSettings().group(ModItemGroup.VOYAGER_ITEMS).maxCount(16)));
 
     public static final Item INFUSED_GEM = registerItem("infused_gem",
-            new EnchantedItem(new FabricItemSettings().group(ModItemGroup.VOYAGER_ITEMS).maxCount(16)));
+            new Item(new FabricItemSettings().group(ModItemGroup.VOYAGER_ITEMS).maxCount(16)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(MOD_ID, name), item);
