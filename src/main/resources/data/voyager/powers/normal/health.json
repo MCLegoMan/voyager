@@ -1,0 +1,56 @@
+{
+	"type": "origins:multiple",
+	"modify_size": {
+		"type": "legolib:modify_size",
+		"scale": 0.75
+	},
+	"attribute_modifiers": {
+		"type": "origins:attribute",
+		"modifiers": [{
+				"name": "Origin modifier",
+				"attribute": "minecraft:generic.max_health",
+				"operation": "addition",
+				"value": -8
+			},
+			{
+				"name": "Origin modifier",
+				"attribute": "minecraft:generic.attack_speed",
+				"operation": "multiply_total",
+				"value": 0.25
+			},
+			{
+				"name": "Origin modifier",
+				"attribute": "minecraft:generic.movement_speed",
+				"operation": "multiply_total",
+				"value": 0.25
+			},
+			{
+				"name": "Origin modifier",
+				"attribute": "reach-entity-attributes:attack_range",
+				"operation": "multiply_total",
+				"value": -0.25
+			},
+			{
+				"name": "Origin modifier",
+				"attribute": "reach-entity-attributes:reach",
+				"operation": "multiply_total",
+				"value": -0.25
+			}
+		]
+	},
+	"jump_modifiers": {
+		"type": "origins:modify_jump",
+		"modifier": {
+			"name": "Origin modifier",
+			"operation": "multiply_total",
+			"value": 0.25
+		},
+		"swim_modifiers": {
+			"type": "origins:modify_swim_speed",
+			"modifier": {
+				"operation": "multiply_total",
+				"value": 0.25
+			}
+		}
+	}
+}

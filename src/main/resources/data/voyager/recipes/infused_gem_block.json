@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "voyager:infused_gem"
+    }
+  },
+  "result": {
+    "item": "voyager:infused_gem_block",
+    "count": 1
+  },
+  "group": "stuff"
+}

@@ -1,0 +1,55 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "playsound voyager:ability master @a ~ ~ ~ 1 1"
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "legolib:powered",
+          "duration": 20,
+          "amplifier": 0,
+          "show_particles": false,
+          "show_icon": true
+        }
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:regeneration",
+          "duration": 300,
+          "amplifier": 2,
+          "show_particles": false,
+          "show_icon": false
+        }
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "legolib:inability",
+          "duration": 600,
+          "amplifier": 0,
+          "show_particles": true,
+          "show_icon": true
+        }
+      }
+    ]
+  },
+  "cooldown": 12000,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "voyager:textures/resource_bar/resource_bar_01.png",
+    "bar_index": 3
+  },
+  "condition": {
+    "type": "origins:status_effect",
+    "effect": "legolib:inability",
+    "min_amplifier": 0,
+    "inverted": true
+  },
+  "key": "legolib.keybind.origins.three_active"
+}

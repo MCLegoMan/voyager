@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "voyager",
+  "version": "${version}",
+
+  "name": "Voyager v2",
+  "description": "You are descended from an adventurous race.\nYour ancestors found ancient gems that gave them magical abilities, but the gems broke and you only have some of the magical abilities left. Will you be able to put them back together?\n\nDevelopers:\n- MCLegoMan [mclegoman.com]\n\n Texture Artists:\n- MCLegoMan [mclegoman.com]\n\n Sound Artists: \n- LittleRobotSoundFactory [CC Attribution License | freesound.org]\n\nAdditional Notes:\nThis Mod was created for 1.18.x other versions of Minecraft may work but is not guaranteed.\n\n",
+  "authors": [
+    "MCLegoMan"
+  ],
+  "contributors": [
+    "Daniel-Tayden Larsen [Developer, Texture Artist]",
+    "LittleRobotSoundFactory [CC Attribution License - Music]"
+  ],
+  "contact": {
+    "homepage": "https://mclegoman.com/",
+    "issues": "https://github.com/MCLegoMan/voyager/issues"
+  },
+
+  "license": "Open Source MCLegoMan Software License",
+  "icon": "assets/logo.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mclegoman.voyager.Main"
+    ]
+  },
+  "mixins": [
+    "voyager.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": ">=0.58.0+1.19",
+    "minecraft": ">=1.19",
+    "java": ">=17",
+    "legolib": ">=1.5.10",
+    "origins": ">=1.6.1",
+    "pehkui": ">=3.3.2"
+  }
+}

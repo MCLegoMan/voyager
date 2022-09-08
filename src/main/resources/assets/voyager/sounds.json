@@ -1,0 +1,23 @@
+{
+  "upgrade": {
+    "sounds": [
+      {
+        "name": "voyager:upgrade"
+      }
+    ]
+  },
+  "ability": {
+    "sounds": [
+      {
+        "name": "voyager:ability"
+      }
+    ]
+  },
+  "shoot": {
+    "sounds": [
+      {
+        "name": "voyager:shoot"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "origins:multiple",
+  "damage_immunity": {
+    "type": "origins:invulnerability",
+    "damage_condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:name",
+          "name": "cactus"
+        },
+        {
+          "type": "origins:name",
+          "name": "sweetBerryBush"
+        },
+        {
+          "type": "origins:name",
+          "name": "thorns"
+        }
+      ]
+    }
+  },
+  "powder_snow": {
+    "type": "legolib:powder_snow"
+  }
+}

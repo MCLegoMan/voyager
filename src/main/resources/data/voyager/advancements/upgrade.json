@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Infused!",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "You have been infused by the power of an ancient gem.",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "voyager:infused_gem",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/entity/end_portal.png"
+    },
+    "criteria": {
+        "no": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "voyager:upgrade/upgrade_origin"
+    },
+    "parent": "voyager:root"
+}
