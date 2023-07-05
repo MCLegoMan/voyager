@@ -1,72 +1,96 @@
-# Voyager v2
-A Custom Origin
+![Voyager: Legacy](https://cdn-raw.modrinth.com/data/nRFMhivL/images/cb09a4b7cd983aa55b7ed31c6bc75200803a6a7e.png)
 
-You are descended from an adventurous race.
-Your ancestors found ancient gems that gave them magical abilities, but the gems broke and you only have some of the magical abilities left. Will you be able to put them back together?
+### Please Note 
+A reimagined version of Voyager is in the works. 
+Voyager Legacy and Voyager Reimagined will be compatible with each other. 
+Voyager Legacy will continue to be supported and updated.
 
-Dependencies:
+### Origin Description 
+You have descended from a magical and adventurous race. 
+Your ancestors created gems that had a ancient power stored within them. 
+Those who consumed the gems had stronger magical abilities, but the Ancient Gems broke long ago and have scattered across the Overworld.
 
-- Fabric Loader: >=0.13.2
-- Java: >=17
-- Origins
-- Origins Extra Keybinds
-- Pehkui
-- Extra Origins
+### Origin Abilities
+#### Voyager
+  - Wellbeing
+      - Your species has a lower health and size compared to humans, but also has a higher agility level.
+  - Crafting
+      - You have the ability to craft without the need of a crafting table.
+  - Dash
+      - You have the ability to dash, however you need a break before you dash again.
+      - You need to either be walking or running to use this ability.
+  - Magical Landing
+      - As a magical being, you don’t take fall damage.
+  - Magical Shield
+      - You have a magical shield that protects you against thorns.
+      - You are not slowed down by blocks such as sweet berry bushes or cobwebs.
+      - You also can walk on powder snow.
+  - Sleeping on the Clouds
+      - You need to be over y:128 to sleep.
+  - Inability
+      - When you have been hit, you are unable to use your powers for a short time.
+  - Magical Ending
+      - Upon death, You let out a blast of magic as you drop gunpowder.
+  - Appetite
+      - Your species doesn’t eat as much compared to humans, however you cannot eat meat.
+  - Upgrade
+      - Once you hold a Infused Gem you will be upgraded to an Infused Voyager.
 
-Item(s):
-- Infused Gem Shard
-- Infused Gem
+#### Infused Voyager
+  - Infused Wellbeing
+      - Infusion has made your health and size shrink, but you also now have a even higher agility level.
+  - Crafting
+      - You have the ability to craft without the need of a crafting table.
+  - Blast of Magic
+      - You set out a strike of pure magic, which explodes on target.
+  - Infused Dash
+      - You have the ability to dash further, the break you take between dashes has also shortened.
+      - You need to either be walking or running to use this ability.
+  - Leap
+      - You have the ability to leap, however you need a break before you leap again.
+  - Regenerative
+      - You have the ability to regenerate occasionally, however you lose all of your powers for a short time.
+  - Magical Landing
+      - As a magical being, you don’t take fall damage.
+  - Magical Shield
+      - You have a magical shield that protects you against thorns.
+      - You are not slowed down by blocks such as sweet berry bushes or cobwebs.
+      - You also can walk on powder snow.
+  - Sleeping on the Mountain
+      - You need to be over y:80 to sleep.
+  - Inability
+      - When you have been hit, you are unable to use your powers for a short time.
+  - Infused Ending
+      - Upon death, You let out a blast of magic as you drop an Infused Gem Shard.
+  - Appetite
+      - Your species doesn’t eat as much compared to humans, however you cannot eat meat.
 
-Enchantment(s):
-- Touch of Inability - Gives your enemy Inability for 4 seconds. (currently only creative mode to obtain - will be good for multiplayer against a voyager.)
+### Items
+  - Infused Gem Shard
+      - Use 9x Infused Gem Shard to craft an Infused Gem.
+  - Infused Gem
+      - Hold this item to upgrade your origin.
+Note: Infused Gem will be renamed to Ancient Gem in a future update.
 
-Status Effect(s):
-- Inability - When you have this effect you are unable to use your abilities.
-- Upgrading - When you have this effect, you get your upgrading particles.
-- Powered - When you have this effect, you get your ability particles.
+### Enchantments
+  - Touch of Inability
+      - Gives your enemy Inability for 4 seconds.
+      - Useful against Voyager Origins.
+      - Currently only available in creative mode.
 
-Recipe(s):
-- You can craft a Infused Gem by putting 9 Infused Gem Shards in a crafting table.
+### Status Effects
+  - Inability
+      - When you have this effect, you are unable to use your abilities.
+  - Upgrading
+      - When you have this effect, you will have the upgrading particles.
+  - Powered
+      - When you have this effect, you will have the powered particles.
 
-Origin Abilitys:
-Voyager:
+### Dependencies
+  - [Origins](https://modrinth.com/mod/origins)
+  - [Origins Extra Keybinds](https://www.curseforge.com/minecraft/mc-mods/origins-extra-keybinds)
+  - [Pehkui](https://modrinth.com/mod/pehkui)
+  - [Extra Origins](https://modrinth.com/mod/extra-origins)
 
-- Wellbeing: Your species has a lower health and size compared to humans, but also has a higher agility level.
-- Crafting (Primary): You have the ability to craft without the need of a crafting table.
-- Dash (Load Hotbar Activator): You have the ability to dash, however you need a break before you dash again.
-- Magical Landing: As a magical being, you don't take fall damage.
-- Magical Shield: You have a magical shield that protects you against thorns. You are not slowed down by blocks such as sweet berry bushes or cobwebs. You also can walk on powder snow.
-- Sleeping on the Clouds: You need to be over 128 blocks high to sleep.
-- Inability: When you have been hit, you are unable to use your powers for a short time.
-- Magical Ending: Upon death, You let out a blast of magic as you drop gunpowder.
-- Appetite: Your species doesn't eat as much compared to humans, however you cannot eat meat.
-- Ancient Gems (Upgrade): Legend has it that the shattered ancient gems were left within the depths of the stronghold, and if you put them back together, they might start to work properly once again.
-
-Infused Voyager:
-- Infused Wellbeing: Infusion has made your health and size shrink, but you also now have a even higher agility level.
-- Crafting (Primary): You have the ability to craft without the need of a crafting table.
-- Blast of Magic (Secondary): You set out a strike of pure magic, which explodes on target.
-- Advanced Dash (Load Hotbar Activator): You have the ability to dash further, the break you take between dashes has also shortened.
-- Leap (Save Hotbar Activator): You have the ability to leap, however you need a break before you leap again.
-- Regenerative (Ternary): You have the ability to regenerate occasionally, however you lose all of your powers for a short time.
-- Magical Landing: As a magical being, you don't take fall damage.
-- Magical Shield: You have a magical shield that protects you against thorns. You are not slowed down by blocks such as sweet berry bushes or cobwebs. You also can walk on powder snow.
-- Sleeping on the Mountain: You need to be over 80 blocks high to sleep.
-- Inability: When you have been hit, you are unable to use your powers for a short time.
-- Infused Ending: Upon death, You let out a blast of magic as you drop an Infused Gem Shard.
-- Appetite: Your species doesn't eat as much compared to humans, however you cannot eat meat.
-
-Credit(s):
-- Daniel-Tayden Larsen (MCLegoMan) [Developer, Texture Artist | mclegoman.com]
-- LittleRobotSoundFactory [Sound Artist, CC Attribution License | freesound.org]
-
-
-License: Open Source MCLegoMan Software License
-
-Software under this license is granted, free of charge, to anyone obtaining a copy of this software, and associated files provided, can deal with the software without restriction, this includes the ability to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, and associated files, and to allow the users that recieve the software to also do so, subject to the following conditions:
-
-The above copyright notice, and this permission notice shall be included in all copies or substantial portions of the software.
-
-SOFTWARE (and the associated files) UNDER THIS LICENSE IS PROVIDED, “AS IS”, WITHOUT WARRANTY OF ANY KIND. IN NO EVENT SHALL THE AUTHORS/COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY.
-
-The license can also be found here: https://mclegoman.com/open-source-mclegoman-software-license/
+### Credits
+  - [LittleRobotSoundFactory](https://freesound.org/people/LittleRobotSoundFactory/) - Sound Effects
